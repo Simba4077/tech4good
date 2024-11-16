@@ -61,6 +61,15 @@ def extract_data(grad_note):
 	
 
 if __name__ == "__main__":
-	gratitude_note = "The working experience with my advisor is the best I've ever experienced so far. She's such an energetic person with great passion and enthusiasm in exploring science, leading me to think, to dig, and to solve. She's optimistic about life and caring about everyone in our group. She helps me a lot not only in my academic career but also in blending into the US. l'm so lucky to meet her. Love her soooooo much!!"
+#	gratitude_note = "The working experience with my advisor is the best I've ever experienced so far. She's such an energetic person with great passion and enthusiasm in exploring science, leading me to think, to dig, and to solve. She's optimistic about life and caring about everyone in our group. She helps me a lot not only in my academic career but also in blending into the US. l'm so lucky to meet her. Love her soooooo much!!"
+#	data = extract_data(gratitude_note)
+#	print(json.dumps(data,indent=4))
+#	print()
+
+#	gratitude_note = "I feel grateful for all the wonderful people I’ve met at UCSC who have supported my personal and academic growth. It has been a great experience working with professors and peers who really enjoy their work and care about each other, and I feel that I have acquired a considerable amount of skills from the work I have done here. Even in times where I felt lonely and overwhelmed by personal circumstances, I found that people were often incredibly understanding and willing to help me get back on my feet."
+#	data = extract_data(gratitude_note)
+#	print(json.dumps(data,indent=4))
+	
+	gratitude_note = "I'm very grateful for Santa Cruz, it's given me so much. I'm grateful for so many things but some that stick out are all the amazing people like my professors, friends, and all the incredible people I've met through Tech4Good. Santa Cruz has a beautiful environment, with amazing views and scenic routes that make me feel at ease, calm, and happy. The downtown life is very fun and engaging, as well as the campus life with its activities, events, clubs, and sports. Almost everyone I have met here in Santa Cruz has been very nice, kind, and just amazing. There have been many people who have made an impact on me some include Professor David Lee for believing in me and giving me a chance, my housemates and friends who I share similar values and culture with, my other friends, and last of all my friends in Tech4Good who I get the pleasure of working with every day and get the chance to build this lab with. The city of Santa Cruz and UCSC will forever hold a special place in my heart because of all the fond memories and experiences I have here, my time doing school here, and all the friends, family, and people I know here."
 	data = extract_data(gratitude_note)
 	print(json.dumps(data,indent=4))	
